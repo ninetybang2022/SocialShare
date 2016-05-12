@@ -273,6 +273,8 @@
                 //未解决的一个BUG要加载两次JS文件能才使用qq浏览器自带的功能
                 isloadqqApi();
                 return QQBrowserShare;
+            }else{
+                return webShare;
             }
         }
     }
